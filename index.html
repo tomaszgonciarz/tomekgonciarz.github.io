@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<title>media.point</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Poppins", sans-serif}
+body {font-size:16px;}
+.w3-half img{margin-bottom:-6px;margin-top:16px;opacity:0.8;cursor:pointer}
+.w3-half img:hover{opacity:1}
+</style>
+<body>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-blue w3-collapse w3-top w3-large w3-padding" style="z-index:3;width:300px;font-weight:bold;" id="mySidebar"><br>
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-button w3-hide-large w3-display-topleft" style="width:100%;font-size:22px">Zamknij</a>
+  <div class="w3-container">
+    <h3 class="w3-padding-64 w3-text-orange"><b>media.point</b></h3>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Główna</a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Informacje</a>
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Gdzie jesteśmy?</a>
+    <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Godziny pracy</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Kontakt</a>
+  </div>
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-hide-large w3-blue w3-xlarge w3-padding">
+  <a href="javascript:void(0)" class="w3-button w3-blue w3-margin-right" onclick="w3_open()">☰</a>
+  <span class="w3-padding-64 w3-text-orange">media.point</span>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+  <!-- Header -->
+  <div class="w3-container" style="margin-top:80px" id="showcase">
+    <h1>Sklep komputerowy i GSM w Suchowoli</h1>
+    <hr style="width:50px;border:5px solid orange" class="w3-round">
+  </div>
+
+  <!-- Logo -->
+  <div class="w3-row-padding">
+    <img src="logo.jpg" style="width:100%" alt="media.point">
+  </div>
+
+  <!-- Informacje -->
+  <div class="w3-container" id="services" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Informacje</b></h1>
+    <hr style="width:50px;border:5px solid orange" class="w3-round">
+    <h3>Sprzedaż oraz serwis GSM</h3>
+    <dl>
+      <dt>Sprzedaż:</dt>
+        <dd>- telefony komórkowe (nowe i używane),</dd>
+        <dd>- komputery i laptopy,</dd>
+        <dd>- tablety i nawigacje,</dd>
+        <dd>- akcesoria GSM i PC,</dd>
+        <dd>- tusze do drukarek.</dd>
+      <dt>Usługi:</dt>
+        <dd>- naprawiamy telefony kom., komputery, laptopy, nawigacje i tablety,</dd>
+        <dd>- konfiguracja sieci,</dd>
+        <dd>- ksero, laminowanie, bindowanie, fax,</dd>
+        <dd>- wywoływanie zdjęć.</dd>
+    </dl>
+  </div>
+
+  <!-- Gdzie jesteśmy? -->
+  <div class="w3-container" id="designers" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Gdzie jesteśmy?</b></h1>
+    <hr style="width:50px;border:5px solid orange" class="w3-round">
+    <div class="w3-row-padding">
+      <div class="w3-half">
+        <a href="https://www.google.com/maps/place/media.point/data=!3m1!4b1!4m2!3m1!1s0x46e03ffb36274065:0x6be4c6201bc2c4a8" target="_blank"><img style='height: 100%; width: 100%; object-fit: contain' src=https:&#47;&#47;maps.googleapis.com&#47;maps&#47;api&#47;staticmap?scale&#61;1&amp;size&#61;520x410&amp;style&#61;feature:poi.business|visibility:off&amp;style&#61;feature:water|visibility:simplified&amp;style&#61;feature:road|element:labels.icon|visiblity:off&amp;style&#61;feature:road.highway|element:labels|saturation:&#45;90|lightness:25&amp;format&#61;jpg&amp;language&#61;pl&amp;region&#61;PL&amp;markers&#61;color:0x5f9bce|53.577089,23.1081559&amp;path&#61;weight:2|color:0x5f9bcecc|fillcolor:0x5f9bce33|enc:euaeI%7DlkpCoyPomFqjQka%40%7DaQpkD%7B_PftJweNrmP%7DuKboU%7DsH%60qYcdEfm%5CkkAd_%5Exn%40ld%5ExhDt%7C%5Cd%7BGziZx%60KdpVbuMhuQntOv%60Lh%7CPvzExjQlLt_Qc_El%7BO_cK%7C_NauPvoK%7DmUlnHogYd%60E%7D%7C%5BviA%7Dj%5Dym%40wo%5DmeDck%5C%7DuGq%7EYszJ_mVcoMyzQuoO_nL&amp;client&#61;google&#45;presto&amp;signature&#61;WY6uM3P5f2JnvZrIoMqxFutL2cA alt="Mapa pokazująca lokalizację firmy."/></a>
+      </div>
+
+      <div class="w3-half">
+        <h3>ADRES</h3>
+        <p>Kupiecka 8</p>
+        <p>16-150 Suchowola</p>
+        <p>Polska</p>
+        <a href="https://www.google.com/maps/dir//media.point/@53.5770685,23.0381164,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x46e03ffb36274065:0x6be4c6201bc2c4a8!2m2!1d23.1081559!2d53.577089" target="_blank">Wyznacz trasę</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Godziny pracy -->
+  <div class="w3-container" id="packages" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Godziny pracy</b></h1>
+    <hr style="width:50px;border:5px solid orange" class="w3-round">
+    <table>
+      <tr>
+        <td><b>pon.</b></td>
+        <td>08:00–16:00</td>
+      </tr>
+      <tr>
+        <td><b>wt.</b></td>
+        <td>08:00–16:00</td>
+      </tr>
+      <tr>
+        <td><b>śr.</b></td>
+        <td>08:00–16:00</td>
+      </tr>
+      <tr>
+        <td><b>czw.</b></td>
+        <td>08:00–16:00</td>
+      </tr>
+      <tr>
+        <td><b>pt.</b></td>
+        <td>08:00–16:00</td>
+      </tr>
+      <tr>
+        <td><b>sob.</b></td>
+        <td>09:00–12:00</td>
+      </tr>
+      <tr>
+        <td><b>niedz.</b></td>
+        <td>Zamknięte</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Kontakt -->
+  <div class="w3-container" id="contact" style="margin-top:75px">
+    <h1 class="w3-xxxlarge w3-text-orange"><b>Kontakt</b></h1>
+    <hr style="width:50px;border:5px solid orange" class="w3-round">
+     <table>
+      <tr>
+        <td><b>telefon:</b></td>
+        <td><a href="tel:+48-517-145-225">517 145 225</a></td>
+      </tr>
+      <tr>
+        <td><b>mail:</b></td>
+        <td>media.point@int.pl</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="w3-container" id="contact" style="margin-top:75px">
+  </div>
+</div>
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
+
+</body>
+</html>
